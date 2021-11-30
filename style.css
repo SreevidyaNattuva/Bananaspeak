@@ -1,0 +1,48 @@
+textarea {
+    width: 50%;
+    margin: auto;
+    padding:12px 20px;
+    border: 2px solid black;
+    height:10vh;
+    margin-left: 6rem;
+    margin-bottom: 3rem;
+    /* box-sizing: border-box; */
+    /* position:absolute; */
+    /* align:50%; */
+    /* transform: translateX(-50%); */
+    
+}
+/* #input-sec{
+    text-align: center;
+    padding: 1rem 1rem;
+    margin: 2rem 3rem;
+    color: black;
+    border-radius: 0.5rem;
+} */
+#btn-translate{
+    /* margin: 2rem 7rem; */
+    padding: 0.5rem 1rem;
+    margin: relative;
+    border: none;
+    /* margin-top: 5rem;*/
+    margin-left: 6rem;
+
+}
+.output{
+    border:1px solid black;
+    height:10vh;
+    width:80%;
+    margin:1rem;
+    box-sizing: border-box;
+}
+#header{
+    text-align: left 50px;
+    margin: 2rem 0rem;
+    padding: 0.5rem 0.5rem;
+
+}
+#out-header{
+    text-align: left 50px;
+    margin: 2rem 0rem;
+    padding: 1rem 1rem;
+}
