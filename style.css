@@ -1,48 +1,68 @@
 textarea {
-    width: 50%;
-    margin: auto;
-    padding:12px 20px;
-    border: 2px solid black;
-    height:10vh;
-    margin-left: 6rem;
-    margin-bottom: 3rem;
-    /* box-sizing: border-box; */
-    /* position:absolute; */
-    /* align:50%; */
-    /* transform: translateX(-50%); */
-    
-}
-/* #input-sec{
+    background-color: rgb(243, 243, 202);
+    color: rgb(71, 19, 19);
+    padding: 1em 1em;
+    border-radius:10px;
+    border: 1.5px solid black;
+    outline:black;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.4;
+    width:800px;
+    height: 80px;
+    left:50%;
     text-align: center;
-    padding: 1rem 1rem;
-    margin: 2rem 3rem;
-    color: black;
-    border-radius: 0.5rem;
-} */
+    margin:1rem 30rem;
+    overflow: scroll;
+}
+textarea:hover{
+    cursor: pointer;
+}
+body{
+    font-family: 'Heebo', sans-serif;
+    background-color: rgb(197, 201, 148);
+}
 #btn-translate{
-    /* margin: 2rem 7rem; */
+    
+    text-align: center;
     padding: 0.5rem 1rem;
-    margin: relative;
-    border: none;
-    /* margin-top: 5rem;*/
-    margin-left: 6rem;
+    border: 1px solid black;
+    margin:1rem 52rem;
+    width:170px;
+    height: 50px;
+    font-size: 16px;
+    background-color: rgb(160, 165, 90);
 
+    /* margin-left:-600px; */
+}
+#btn-translate:hover{
+     cursor: pointer;
 }
 .output{
-    border:1px solid black;
-    height:10vh;
-    width:80%;
-    margin:1rem;
-    box-sizing: border-box;
+    background-color: rgb(243, 243, 202);
+    color: black;
+    padding: 1em 1em;
+    border-radius:10px;
+    border:1.5px solid black;
+    outline:none;
+    
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.4;
+    width:800px;
+    height: 80px;
+    text-align: center;
+    margin:1rem 30rem;
+    overflow: scroll;
 }
 #header{
-    text-align: left 50px;
-    margin: 2rem 0rem;
-    padding: 0.5rem 0.5rem;
-
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
 }
 #out-header{
-    text-align: left 50px;
-    margin: 2rem 0rem;
-    padding: 1rem 1rem;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
 }
