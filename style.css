@@ -39,7 +39,7 @@ body{
 #btn-translate:hover{
      cursor: pointer;
 }
-.output{
+#output{
     background-color: rgb(243, 243, 202);
     color: black;
     padding: 1em 1em;

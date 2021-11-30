@@ -5,9 +5,7 @@ var serverURL = "https://api.funtranslations.com/translate/minion.json";
 //var serverURL = "https://api.jokes.one";
 function getTranslationURL(text)
 {
-  var url; 
-  url= serverURL+"?"+"text="+text;
-  return url;
+  return serverURL+"?"+"text="+text;
 }
 function errorHandler(error){
     console.log("error occured", error);
@@ -19,12 +17,12 @@ function clickHandler()
     //outputDiv.innerText = "Sree";
     var inputText = txtInput.value;//Input from UI
     //calling server for processing
-    fetch(getTranslationURL(inputText))
+    var user = fetch(getTranslationURL(inputText))
          .then(response => response.json())
          .then(json => {var translatedText = json.contents.translated;
                         outputDiv.innerText=  translatedText;})
          .catch(errorHandler);
 
-};
+}
 
 btnTranslate.addEventListener("click", clickHandler);
