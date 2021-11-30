@@ -5,7 +5,9 @@ var serverURL = "https://api.funtranslations.com/translate/minion.json";
 //var serverURL = "https://api.jokes.one";
 function getTranslationURL(text)
 {
-  return serverURL+"?"+"text="+text;
+  var url; 
+  url= serverURL+"?"+"text="+text;
+  return url;
 }
 function errorHandler(error){
     console.log("error occured", error);
