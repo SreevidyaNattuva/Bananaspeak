@@ -1,0 +1,1 @@
+It takes input from user and gives output to user in banana language. JS, HTML and CSS are used to design this.
